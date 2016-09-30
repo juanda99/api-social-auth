@@ -1,0 +1,48 @@
+{
+  "name": "api_node_express",
+  "version": "1.0.0",
+  "description": "API Rest usando node.js y express",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha ./tests/*",
+    "start": "nodemon app/server.js --exec babel-node --presets es2015,stage-2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanda99/api_node_express.git"
+  },
+  "keywords": [
+    "api",
+    "rest",
+    "express",
+    "mongoose"
+  ],
+  "author": "juanda <juandacorreo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juanda99/api_node_express/issues"
+  },
+  "homepage": "https://github.com/juanda99/api_node_express#readme",
+  "dependencies": {
+    "bcryptjs": "^2.3.0",
+    "body-parser": "^1.15.0",
+    "email-verification": "^0.4.5",
+    "express": "^4.13.4",
+    "express-jwt": "^5.0.0",
+    "express-session": "^1.14.1",
+    "mongoose": "^4.4.6",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.1",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-stage-2": "^6.13.0",
+    "eslint": "^2.13.1",
+    "mocha": "^2.5.3",
+    "nodemon": "^1.9.1",
+    "should": "^8.4.0",
+    "supertest": "^1.2.0"
+  }
+}
